@@ -52,7 +52,7 @@ owner = setting.OwnerNumber//ubah di file setting.json
 botname = setting.BotName//ubah di file setting.json
 ownername = setting.OwnerName//ubah di file setting.json
 fake = setting.Fake
-pe = 'https://instagram.com/cal_me_herman?utm_medium=copy_'
+pe = 'https://instagram.com/jiplonk3dt2?utm_medium=copy_'
 //࿇ ══━━━━━━━━━━━━━━━━━━━━✥SUBSCRIBE HERMAN CHANEL✥━━━━━━━━━━━━━━━━━━━━━━━━══ ࿇
 AlphaBot = 'Alphabot'
 Leyscoders = 'IkyOgiwara'
@@ -312,7 +312,7 @@ const isUrl = (url) => {
                             itemCount : 99999999,
                             status: 1,
                             surface : 1,
-                            message: `囧 𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙`, 
+                            message: `囧 KazuKi 𝐶ℎ𝑎𝑛𝑒𝑙`, 
                             orderTitle: `${botname}`,
                             thumbnail: fakeherman, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -722,8 +722,8 @@ case 'sewabot':
 daftar = `Halo ka ${pushname}
 ━━━━━ • ஜ • ❈ • ஜ • ━━━━━
 • 🛒List Harga Sewa Botz🛒
-💰 3k 1minggu
-💰 5k permanen
+💰 15k 1minggu
+💰 30k 1bulan
 minat ? Hubungi Owner Ketik #owner 
 ━━━━━ • ஜ • ❈ • ஜ • ━━━━━
 `
@@ -795,7 +795,7 @@ case 'stickergif':
 					}
 					break
 					case 'ttp':  
-                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp 𖨇𝐻𝑒𝑟𝑚𝑎𝑛᭄ 𝐵𝑜𝑡𝑧𓅂 Whatsapp`)
+                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp 𖨇Kazuki 𝐵𝑜𝑡𝑧𓅂 Whatsapp`)
                     anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
                     herman.sendMessage(from, anu1, sticker, {quoted: mek})
                     break
